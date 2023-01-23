@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+table,th,tr,td
+{
+	border:2px solid green;
+	border-collapse: collapse;
+}
+
+table
+{
+	width:90%;
+	margin:auto;
+}
+
+td
+{
+	text-align: center;
+}
+
+th
+{
+	color:red;
+}
+
+table
+{
+	margin-bottom: 15px;
+}
+
+table a
+{
+	color:blue;
+	text-decoration: none;
+}
+
+a
+{
+	text-decoration: none;
+	color:#ff00ff;
+}

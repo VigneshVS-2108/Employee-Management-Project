@@ -1,0 +1,75 @@
+@charset "ISO-8859-1";
+form
+{
+	width:50%;
+	margin:auto;
+}
+
+input
+{
+	display:block;
+	width:70%;
+	margin:auto;
+	border-radius:8px;
+}
+
+textarea
+{
+	display:block;
+	width:70%;
+	margin:auto;
+	border-radius:8px;
+}
+
+select
+{
+	display:block;
+	width:70%;
+	margin:auto;
+	border-radius:8px;
+}
+
+input[type='submit']
+{
+	background-color: green;
+	color:yellow;
+	font-size: 20px;
+	border-radius:10px;
+	border-color: red;
+	cursor:pointer;
+}
+
+input[type="date"]
+{
+	text-align: center;
+}
+
+label
+{
+	display:block;
+	text-align: center;
+	color:red;
+	
+}
+
+option
+{
+	text-align: center;
+
+}
+
+::placeholder{
+	color:blue;
+	text-align: center;
+}
+
+legend {
+	color:#80ff80;
+}
+
+a{
+	text-decoration: none;
+	display:block;
+	margin:8px 50px;
+	color: #ff00ff;
+}
